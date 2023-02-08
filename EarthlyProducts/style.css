@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+} 
+html{
+    font-size: 14px;
+    height: 100%;
+}
+ .page-wrapper{
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+overflow:hidden;
+
+
+} 
+ header{
+    padding: 0;
+}
+section.hero{
+    padding-top: 6rem;
+}
+h2{
+    font-size: 0rem;
+    color: rgb(7, 8, 58);
+}
+span{
+    font-size: 3rem;
+    color: darkorange;
+    display: block;
+    
+}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        display: flexbox;   
+    }
+.img1{
+    margin-top: 1rem;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.earthly{
+    margin-right: 200px;
+    margin-top: 1rem;
+}
+
+        h1{
+            font-family: sans-serif;
+            color:  rgb(29, 29, 216);
+            font-size: 3rem;
+           
+           
+
+        }
+        h4{
+           
+            color: rgb(14, 202, 14);
+         margin-top: 0;
+           font-family:'Poppins',sans-serif;
+        
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+           
+        } 
+        li{
+            padding:  0 2rem;
+            
+        }
+    .cube{
+        margin-right: 60px;
+      -webkit-transform: rotate(15deg) scale(1.4);
+      transform: rotate(15deg) scale(1.4);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      
+
+    }
+.cube:hover{
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+
+}
+
+        a{
+            font-weight: 700;
+            color: whitesmoke;
+            text-decoration: none;
+            font-family: 'Poppins',sans-serif;
+        }
+       
+.containr{
+    width: auto;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    color: white;
+}
+button{
+    background-color:darkorange;
+    display: block;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    border:0;
+    margin-top: 20rem;
+    float: right;
+    position: relative;
+    color: rgb(29, 28, 28);  
+    
+}
+button:hover{
+    background-color:orange;
+    color: rgb(46, 41, 41);
+}
+@media only screen and(max-width:600px){
+    h1{
+        font-family: 'Poppins',sans-serif;
+        color:  rgb(6, 250, 59);
+        font-size: 1rem;
+       line-height: 1rem;
+       
+
+    }
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('/img/earthlykit.png');
+    background-size: cover;
+    background-attachment: fixed;
+   
+} 
+section:nth-child(2n+1)
+{
+    position: relative;
+    height: auto;
+    background: #fafafa;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+section:nth-child(2n+2)
+{
+    position: relative;
+    height: auto;
+    background: #fafafa;
+    display: flex;
+   
+    
+}
+section .imgBx{
+    position: sticky;
+    top: 0;
+    min-width: 50%;
+    height: 100vh;
+    
+   
+}
+section .imgBx img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 600px;
+}
+section:nth-child(2n+1) .content{
+    padding: 100px 0px 100px 100px;
+    text-align: right;
+}
+section:nth-child(2n+2) .content{
+    padding: 100px 100px 100px 0px;
+    text-align: left;
+}
+section .content h2{
+    margin: 0 0 20px;
+    font-size: 60px;
+}
+section .content p{
+   color: #777;
+    font-size: 18px;
+}
