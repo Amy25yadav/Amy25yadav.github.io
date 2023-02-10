@@ -1,0 +1,64 @@
+/* *{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+.screenshot{
+  height: 200px;
+  width: 160px;
+}*/
+#btn{
+align-self: center;
+margin-left: 100px;
+
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #282c34;
+
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 10px;
+
+}
+.card{
+  position: relative;
+}
+/* .card .bttn{
+  position: absolute;
+} */
+
+img {
+  height: 50px;
+  width: 40px;
+
+}
+#buttongrp{
+  float: right;
+}
+#btnleft{
+float: left;
+border: 0;
+}
+#btnrght{
+  float: right;
+  
+}
+.capture{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
